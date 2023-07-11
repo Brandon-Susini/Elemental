@@ -1,0 +1,50 @@
+{
+	"categories": [
+		{
+			"uuid": "fad9d8f5-7784-4e87-9f29-6884963a4499",
+			"title": "Task",
+			"color": "70bafa"
+		}
+	],
+	"stages": [
+		{
+			"uuid": "04e17d07-f1b9-4fc6-8e27-944b9ddd5a83",
+			"title": "Todo",
+			"tasks": [
+				"97531c96-5e54-44cf-b842-baa9a0630c03"
+			]
+		},
+		{
+			"uuid": "d73428c1-bde1-4095-8e1f-595bf753ff5f",
+			"title": "Doing",
+			"tasks": []
+		},
+		{
+			"uuid": "86528ed0-b773-4d8f-93b8-7fc97c36a48e",
+			"title": "Done",
+			"tasks": []
+		}
+	],
+	"tasks": [
+		{
+			"uuid": "97531c96-5e54-44cf-b842-baa9a0630c03",
+			"title": "Decide on Character Sprites",
+			"description": "Air -> Neutral_ Eclipse\nEarth -> Boss Golem\nWater -> ",
+			"category": "fad9d8f5-7784-4e87-9f29-6884963a4499",
+			"steps": []
+		}
+	],
+	"layout": {
+		"columns": [
+			[
+				"04e17d07-f1b9-4fc6-8e27-944b9ddd5a83"
+			],
+			[
+				"d73428c1-bde1-4095-8e1f-595bf753ff5f"
+			],
+			[
+				"86528ed0-b773-4d8f-93b8-7fc97c36a48e"
+			]
+		]
+	}
+}

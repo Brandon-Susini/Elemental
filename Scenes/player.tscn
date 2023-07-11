@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bj1juq1t1sfqt"]
+
+[ext_resource type="Script" path="res://Scenes/player.gd" id="1_aaotb"]
+[ext_resource type="SpriteFrames" uid="uid://1g4uh67bnjvh" path="res://addons/duelyst_animated_sprites/assets/spriteframes/units/neutral_golemstormmetal.tres" id="1_w504v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sbqg6"]
+size = Vector2(43, 34)
+
+[node name="Player" type="CharacterBody2D"]
+collision_mask = 0
+script = ExtResource("1_aaotb")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("1_w504v")
+animation = &"breathing"
+frame_progress = 0.605747
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2.5, 7)
+shape = SubResource("RectangleShape2D_sbqg6")
