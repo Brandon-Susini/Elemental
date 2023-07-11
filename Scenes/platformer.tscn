@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://bkbwtxim46ovl"]
+
+[ext_resource type="Texture2D" uid="uid://c8x5vcr06es4i" path="res://Sidescroller Shooter - Central City/Background/Base Color.png" id="1_asltx"]
+[ext_resource type="PackedScene" uid="uid://bj1juq1t1sfqt" path="res://Scenes/player.tscn" id="2_xdb4t"]
+[ext_resource type="PackedScene" uid="uid://dl2yvw2gnpx8k" path="res://Scenes/wall.tscn" id="3_e6s1i"]
+
+[node name="Platformer" type="Node"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(300, 526)
+scale = Vector2(1.33776, 1.2)
+texture = ExtResource("1_asltx")
+
+[node name="Player" parent="." instance=ExtResource("2_xdb4t")]
+position = Vector2(61, 554)
+
+[node name="Wall" parent="." instance=ExtResource("3_e6s1i")]
+position = Vector2(301, 654)
+
+[node name="Wall2" parent="." instance=ExtResource("3_e6s1i")]
+position = Vector2(-63, 457)
+rotation = 1.5708
+
+[node name="Wall3" parent="." instance=ExtResource("3_e6s1i")]
+position = Vector2(670, 476)
+rotation = 1.5708

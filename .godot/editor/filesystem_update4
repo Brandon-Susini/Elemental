@@ -1,0 +1,9 @@
+res://Scenes/Main.tscn
+res://addons/duelyst_animated_sprites/assets/spriteframes/units/neutral_golemstormmetal.tres
+res://Scenes/player.tscn
+res://Scenes/player.gd
+res://Scenes/wall.tscn
+res://Scenes/platformer.tscn
+res://Scenes/animal.tscn
+res://Scripts/animal.gd
+res://Scenes/AnimalSim.tscn

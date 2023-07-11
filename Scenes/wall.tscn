@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl2yvw2gnpx8k"]
+
+[ext_resource type="Texture2D" uid="uid://8n22xcbtt5sd" path="res://icon.svg" id="1_pvy0b"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ibf7t"]
+size = Vector2(600, 126)
+
+[node name="Wall" type="StaticBody2D"]
+metadata/_edit_group_ = true
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -47.0
+offset_right = 300.0
+offset_bottom = 53.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_pvy0b")
+stretch_mode = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 3)
+shape = SubResource("RectangleShape2D_ibf7t")

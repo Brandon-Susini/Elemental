@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://d35t75xsi1jad"]
+
+[ext_resource type="Texture2D" uid="uid://8n22xcbtt5sd" path="res://icon.svg" id="1_1ecta"]
+[ext_resource type="Script" path="res://Scripts/animal.gd" id="1_8ivsm"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_36n56"]
+resource_local_to_scene = true
+resource_name = "white"
+blend_mode = 1
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sgf4s"]
+size = Vector2(127, 129)
+
+[node name="animal" type="Area2D"]
+script = ExtResource("1_8ivsm")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+material = SubResource("CanvasItemMaterial_36n56")
+texture = ExtResource("1_1ecta")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -0.5)
+shape = SubResource("RectangleShape2D_sgf4s")

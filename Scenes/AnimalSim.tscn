@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6c4bhxaxmqp2"]
+
+[ext_resource type="PackedScene" uid="uid://d35t75xsi1jad" path="res://Scenes/animal.tscn" id="1_enskr"]
+
+[node name="AnimalSim" type="Node"]
+
+[node name="animal" parent="." instance=ExtResource("1_enskr")]
+position = Vector2(958, 487)
