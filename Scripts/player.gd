@@ -20,6 +20,11 @@ func _process(delta):
 	
 # Add a state machine
 func _physics_process(delta):
+	naiveStateHandling(delta)
+	move_and_slide()
+	
+	
+func naiveStateHandling(delta):
 	velocity.y += (gravity *delta)
 	var running = {"status": 0}
 
@@ -51,4 +56,3 @@ func _physics_process(delta):
 #		$AnimatedSprite2D.animation = "land"
 #		grounded = true
 	$AnimatedSprite2D.play()
-	move_and_slide()

@@ -1,10 +1,11 @@
-[gd_scene load_steps=38 format=3 uid="uid://bj1juq1t1sfqt"]
+[gd_scene load_steps=39 format=3 uid="uid://bj1juq1t1sfqt"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_cxylw"]
 [ext_resource type="Texture2D" uid="uid://cthsp6p4q1xmv" path="res://AssetPack-V1/Sprite Sheets/Character Idle 48x48.png" id="2_d7rno"]
 [ext_resource type="Texture2D" uid="uid://0e37wsl5pbx3" path="res://AssetPack-V1/Sprite Sheets/player jump 48x48.png" id="3_n80uo"]
 [ext_resource type="Texture2D" uid="uid://m5u12p7iifds" path="res://AssetPack-V1/Sprite Sheets/player land 48x48.png" id="4_brg1s"]
 [ext_resource type="Texture2D" uid="uid://dsll60p8f7u1k" path="res://AssetPack-V1/Sprite Sheets/run cycle 48x48.png" id="5_08vbv"]
+[ext_resource type="Script" path="res://Scenes/StateMachine.gd" id="6_twajb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kivrd"]
 atlas = ExtResource("2_d7rno")
@@ -260,3 +261,6 @@ offset = Vector2(0, -15)
 zoom = Vector2(6, 6)
 limit_left = 0
 limit_right = 1280
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("6_twajb")

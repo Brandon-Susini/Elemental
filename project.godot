@@ -23,7 +23,7 @@ window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/gd-openai-coding/plugin.cfg")
+enabled=PackedStringArray("res://addons/sprite_painter/plugin.cfg")
 
 [input]
 

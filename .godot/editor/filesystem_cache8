@@ -1,110 +1,183 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1689105707
-icon.svg::CompressedTexture2D::2344757537296242503::1689091412::1689093255::1::::<><>::
-::res://addons/::1689104907
-::res://addons/kanban_tasks/::1689093255
-icon.svg::CompressedTexture2D::2584192313033160869::1689091412::1689093255::1::::<><>::
-plugin.cfg::TextFile::-1::1689091412::0::1::::<><>::
-plugin.gd::GDScript::-1::1689091412::0::1::::<>EditorPlugin<>::
-standalone_plugin.gd::GDScript::-1::1689091412::0::1::::<>EditorPlugin<>::
-::res://addons/kanban_tasks/data/::1689091412
-board.gd::GDScript::-1::1689091412::0::1::::<><>::
-category.gd::GDScript::-1::1689091412::0::1::::<><>::
-kanban_resource.gd::GDScript::-1::1689091412::0::1::::<>RefCounted<>::
-layout.gd::GDScript::-1::1689091412::0::1::::<><>::
-settings.gd::GDScript::-1::1689091412::0::1::::<><>::
-stage.gd::GDScript::-1::1689091412::0::1::::<><>::
-step.gd::GDScript::-1::1689091412::0::1::::<><>::
-task.gd::GDScript::-1::1689091412::0::1::::<><>::
-::res://addons/kanban_tasks/edit_label/::1689091412
-edit_label.gd::GDScript::-1::1689091412::0::1::::<>VBoxContainer<>::
-::res://addons/kanban_tasks/expand_button/::1689091412
-expand_button.gd::GDScript::-1::1689091412::0::1::::<>Button<>::
-::res://addons/kanban_tasks/plugin_singleton/::1689091412
-singletons.gd::GDScript::-1::1689091412::0::1::::<>Object<>::
-::res://addons/kanban_tasks/uuid/::1689091412
-uuid.gd::GDScript::-1::1689091412::0::1::::<>Node<>::
-::res://addons/kanban_tasks/view/::1689091412
-edit_context.gd::GDScript::-1::1689091412::0::1::::<>Node<>::
-filter.gd::GDScript::-1::1689091412::0::1::::<>RefCounted<>::
-shortcuts.gd::GDScript::-1::1689091412::0::1::::<>Node<>::
-tooltip.gd::GDScript::-1::1689091412::0::1::::<>RichTextLabel<>::
-::res://addons/kanban_tasks/view/board/::1689091412
-board.gd::GDScript::-1::1689091412::0::1::::<>VBoxContainer<>::
-board.tscn::PackedScene::6885359366680717350::1689091412::0::1::::<><>::res://addons/kanban_tasks/view/board/board.gd<>uid://dh1yunmhipirg
-::res://addons/kanban_tasks/view/category/::1689091412
-category_popup_menu.gd::GDScript::-1::1689091412::0::1::::<>PopupMenu<>::
-::res://addons/kanban_tasks/view/details/::1689091412
-details.gd::GDScript::-1::1689091412::0::1::::<>AcceptDialog<>::
-details.tscn::PackedScene::3948778088959725227::1689091412::0::1::::<><>::res://addons/kanban_tasks/view/details/details.gd<>uid://dwjg5vyxx4g48
-step_entry.gd::GDScript::-1::1689091412::0::1::::<>HBoxContainer<>::
-step_holder.gd::GDScript::-1::1689091412::0::1::::<>VBoxContainer<>::
-step_holder.tscn::PackedScene::8722415027818856523::1689091412::0::1::::<><>::res://addons/kanban_tasks/view/details/step_holder.gd
-::res://addons/kanban_tasks/view/documentation/::1689093255
-1.svg::CompressedTexture2D::1973766188787944111::1689091412::1689093255::1::::<><>::
-2.svg::CompressedTexture2D::2487100435207923230::1689091412::1689093255::1::::<><>::
-3.svg::CompressedTexture2D::2525364531538903352::1689091412::1689093255::1::::<><>::
-4.svg::CompressedTexture2D::1068195540652826908::1689091412::1689093255::1::::<><>::
-documentation.tscn::PackedScene::6327845661545106705::1689091412::0::1::::<><>::uid://3edv1ymvukp0
-::res://addons/kanban_tasks/view/settings/::1689091412
-settings.gd::GDScript::-1::1689091412::0::1::::<>AcceptDialog<>::
-settings.tscn::PackedScene::7705751403526120000::1689091412::0::1::::<><>::res://addons/kanban_tasks/view/settings/settings.gd<>uid://due07vdflx4o
-::res://addons/kanban_tasks/view/settings/categories/::1689091412
-categories.gd::GDScript::-1::1689091412::0::1::::<>VBoxContainer<>::
-categories.tscn::PackedScene::4304731554905375440::1689091412::0::1::::<><>::res://addons/kanban_tasks/view/settings/categories/categories.gd
-category_entry.gd::GDScript::-1::1689091412::0::1::::<>HBoxContainer<>::
-::res://addons/kanban_tasks/view/settings/general/::1689091412
-general.gd::GDScript::-1::1689091412::0::1::::<>VBoxContainer<>::
-general.tscn::PackedScene::252143312145526156::1689091412::0::1::::<><>::res://addons/kanban_tasks/view/settings/general/general.gd
-::res://addons/kanban_tasks/view/settings/stages/::1689091412
-stages.gd::GDScript::-1::1689091412::0::1::::<>VBoxContainer<>::
-stages.tscn::PackedScene::7190862373068082533::1689091412::0::1::::<><>::res://addons/kanban_tasks/view/settings/stages/stages.gd
-::res://addons/kanban_tasks/view/stage/::1689091412
-stage.gd::GDScript::-1::1689091412::0::1::::<>MarginContainer<>::
-stage.tscn::PackedScene::3044052271250671355::1689091412::0::1::::<><>::res://addons/kanban_tasks/view/stage/stage.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd
-::res://addons/kanban_tasks/view/start/::1689091412
-start.gd::GDScript::-1::1689091412::0::1::::<>Control<>::
-start.tscn::PackedScene::2692091061628401710::1689091412::0::1::::<><>::res://addons/kanban_tasks/view/start/start.gd
-::res://addons/kanban_tasks/view/task/::1689091412
-autosize_label.gd::GDScript::-1::1689091412::0::1::::<>Label<>::
-task.gd::GDScript::-1::1689091412::0::1::::<>MarginContainer<>::
-task.tscn::PackedScene::5508831843714498441::1689091412::0::1::::<><>::res://addons/kanban_tasks/view/task/task.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd<>res://addons/kanban_tasks/view/task/autosize_label.gd<>uid://bwi22eyrmeeet
-::res://AssetPack-V1/::1689093298
-::res://AssetPack-V1/Aseprite Files/::1689093298
-::res://AssetPack-V1/Aseprite Files/Player/::1689093298
-::res://AssetPack-V1/Aseprite Files/Tilemap/::1689093298
-::res://AssetPack-V1/Sprite Sheets/::1689093300
-Character Idle 48x48.png::CompressedTexture2D::6122001386301583929::1689093298::1689093300::1::::<><>::
-player jump 48x48.png::CompressedTexture2D::1764737007030120294::1689093298::1689093300::1::::<><>::
-player land 48x48.png::CompressedTexture2D::905459669542503180::1689093298::1689093300::1::::<><>::
-run cycle 48x48.png::CompressedTexture2D::8446093976153178750::1689093298::1689093300::1::::<><>::
-wall land 48x48.png::CompressedTexture2D::913074177056563619::1689093298::1689093300::1::::<><>::
-Wall Slide 48x48.png::CompressedTexture2D::4545122672840141522::1689093298::1689093300::1::::<><>::
-::res://AssetPack-V1/Tilemap/::1689093300
-160x160 background tilemap.png::CompressedTexture2D::3209381211385225171::1689093298::1689093300::1::::<><>::
-Basic Tilemap.png::CompressedTexture2D::9015878618047060847::1689093298::1689093300::1::::<><>::
-::res://Scenes/::1689105695
-animal.gd::GDScript::-1::1689105695::0::1::::<>Area2D<>::
-animal.tscn::PackedScene::9187693385894089207::1689105674::0::1::::<><>::uid://8n22xcbtt5sd::::res://icon.svg
-AnimalSim.tscn::PackedScene::6954587257482636905::1689105428::0::1::::<><>::
-platformer.tscn::PackedScene::3091744422733242709::1689105389::0::1::::<><>::uid://c8x5vcr06es4i::::res://Sidescroller Shooter - Central City/Background/Base Color.png<>uid://bj1juq1t1sfqt::::res://Scenes/player.tscn<>uid://dl2yvw2gnpx8k::::res://Scenes/wall.tscn
-player.gd::GDScript::-1::1689101071::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::3072377148291191511::1689105715::0::1::::<><>::res://Scenes/player.gd<>uid://cthsp6p4q1xmv::::res://AssetPack-V1/Sprite Sheets/Character Idle 48x48.png<>uid://0e37wsl5pbx3::::res://AssetPack-V1/Sprite Sheets/player jump 48x48.png<>uid://m5u12p7iifds::::res://AssetPack-V1/Sprite Sheets/player land 48x48.png<>uid://dsll60p8f7u1k::::res://AssetPack-V1/Sprite Sheets/run cycle 48x48.png
-wall.tscn::PackedScene::7988573437469695888::1689105218::0::1::::<><>::uid://8n22xcbtt5sd::::res://icon.svg
-::res://Scripts/::1689105707
-::res://Sidescroller Shooter - Central City/::1689104934
-::res://Sidescroller Shooter - Central City/Assets/::1689104934
-Buildings.png::CompressedTexture2D::4048655316089027098::1689104934::1689104934::1::::<><>::
-Props-01.png::CompressedTexture2D::9032664872002604860::1689104934::1689104934::1::::<><>::
-Tiles.png::CompressedTexture2D::4742301659506975507::1689104934::1689104934::1::::<><>::
-::res://Sidescroller Shooter - Central City/Background/::1689104934
-Background Props.png::CompressedTexture2D::327008633248793457::1689104934::1689104934::1::::<><>::
-Base Color.png::CompressedTexture2D::7138413039725508762::1689104934::1689104934::1::::<><>::
-Frontal Fog.png::CompressedTexture2D::6263543549653646481::1689104934::1689104934::1::::<><>::
-Mid Fog.png::CompressedTexture2D::3794772591571851337::1689104934::1689104934::1::::<><>::
-::res://Sidescroller Shooter - Central City/Social/::1689104935
-Background Props.png::CompressedTexture2D::490254262421956414::1689104934::1689104934::1::::<><>::
-Buildings.png::CompressedTexture2D::7524196626343710739::1689104934::1689104935::1::::<><>::
-MockUp-01.png::CompressedTexture2D::6359304144178058760::1689104934::1689104934::1::::<><>::
-Props-01.png::CompressedTexture2D::2207953985524456432::1689104934::1689104934::1::::<><>::
-Tiles.png::CompressedTexture2D::3112660768736447317::1689104934::1689104934::1::::<><>::
+::res://::1689115914
+icon.png::CompressedTexture2D::4661350061556102347::1689115864::1689115864::1::::<><>::
+icon.svg::CompressedTexture2D::2344757537296242503::1689114994::1689115030::1::::<><>::
+LICENSE.md::TextFile::-1::1689115863::0::1::::<><>::
+README.md::TextFile::-1::1689115863::0::1::::<><>::
+::res://addons/::1689115863
+::res://addons/kanban_tasks/::1689115030
+icon.svg::CompressedTexture2D::2584192313033160869::1689114994::1689115030::1::::<><>::
+plugin.cfg::TextFile::-1::1689114994::0::1::::<><>::
+plugin.gd::GDScript::-1::1689114994::0::1::::<>EditorPlugin<>::
+standalone_plugin.gd::GDScript::-1::1689114994::0::1::::<>EditorPlugin<>::
+::res://addons/kanban_tasks/data/::1689114994
+board.gd::GDScript::-1::1689114994::0::1::::<><>::
+category.gd::GDScript::-1::1689114994::0::1::::<><>::
+kanban_resource.gd::GDScript::-1::1689114994::0::1::::<>RefCounted<>::
+layout.gd::GDScript::-1::1689114994::0::1::::<><>::
+settings.gd::GDScript::-1::1689114994::0::1::::<><>::
+stage.gd::GDScript::-1::1689114994::0::1::::<><>::
+step.gd::GDScript::-1::1689114994::0::1::::<><>::
+task.gd::GDScript::-1::1689114994::0::1::::<><>::
+::res://addons/kanban_tasks/edit_label/::1689114994
+edit_label.gd::GDScript::-1::1689114994::0::1::::<>VBoxContainer<>::
+::res://addons/kanban_tasks/expand_button/::1689114994
+expand_button.gd::GDScript::-1::1689114994::0::1::::<>Button<>::
+::res://addons/kanban_tasks/plugin_singleton/::1689114994
+singletons.gd::GDScript::-1::1689114994::0::1::::<>Object<>::
+::res://addons/kanban_tasks/uuid/::1689114994
+uuid.gd::GDScript::-1::1689114994::0::1::::<>Node<>::
+::res://addons/kanban_tasks/view/::1689114994
+edit_context.gd::GDScript::-1::1689114994::0::1::::<>Node<>::
+filter.gd::GDScript::-1::1689114994::0::1::::<>RefCounted<>::
+shortcuts.gd::GDScript::-1::1689114994::0::1::::<>Node<>::
+tooltip.gd::GDScript::-1::1689114994::0::1::::<>RichTextLabel<>::
+::res://addons/kanban_tasks/view/board/::1689114994
+board.gd::GDScript::-1::1689114994::0::1::::<>VBoxContainer<>::
+board.tscn::PackedScene::6885359366680717350::1689114994::0::1::::<><>::res://addons/kanban_tasks/view/board/board.gd<>uid://dh1yunmhipirg
+::res://addons/kanban_tasks/view/category/::1689114994
+category_popup_menu.gd::GDScript::-1::1689114994::0::1::::<>PopupMenu<>::
+::res://addons/kanban_tasks/view/details/::1689114994
+details.gd::GDScript::-1::1689114994::0::1::::<>AcceptDialog<>::
+details.tscn::PackedScene::3948778088959725227::1689114994::0::1::::<><>::res://addons/kanban_tasks/view/details/details.gd<>uid://dwjg5vyxx4g48
+step_entry.gd::GDScript::-1::1689114994::0::1::::<>HBoxContainer<>::
+step_holder.gd::GDScript::-1::1689114994::0::1::::<>VBoxContainer<>::
+step_holder.tscn::PackedScene::8722415027818856523::1689114994::0::1::::<><>::res://addons/kanban_tasks/view/details/step_holder.gd
+::res://addons/kanban_tasks/view/documentation/::1689115030
+1.svg::CompressedTexture2D::1973766188787944111::1689114994::1689115030::1::::<><>::
+2.svg::CompressedTexture2D::2487100435207923230::1689114994::1689115030::1::::<><>::
+3.svg::CompressedTexture2D::2525364531538903352::1689114994::1689115030::1::::<><>::
+4.svg::CompressedTexture2D::1068195540652826908::1689114994::1689115030::1::::<><>::
+documentation.tscn::PackedScene::6327845661545106705::1689114994::0::1::::<><>::uid://3edv1ymvukp0
+::res://addons/kanban_tasks/view/settings/::1689114994
+settings.gd::GDScript::-1::1689114994::0::1::::<>AcceptDialog<>::
+settings.tscn::PackedScene::7705751403526120000::1689114994::0::1::::<><>::res://addons/kanban_tasks/view/settings/settings.gd<>uid://due07vdflx4o
+::res://addons/kanban_tasks/view/settings/categories/::1689114994
+categories.gd::GDScript::-1::1689114994::0::1::::<>VBoxContainer<>::
+categories.tscn::PackedScene::4304731554905375440::1689114994::0::1::::<><>::res://addons/kanban_tasks/view/settings/categories/categories.gd
+category_entry.gd::GDScript::-1::1689114994::0::1::::<>HBoxContainer<>::
+::res://addons/kanban_tasks/view/settings/general/::1689114994
+general.gd::GDScript::-1::1689114994::0::1::::<>VBoxContainer<>::
+general.tscn::PackedScene::252143312145526156::1689114994::0::1::::<><>::res://addons/kanban_tasks/view/settings/general/general.gd
+::res://addons/kanban_tasks/view/settings/stages/::1689114994
+stages.gd::GDScript::-1::1689114994::0::1::::<>VBoxContainer<>::
+stages.tscn::PackedScene::7190862373068082533::1689114994::0::1::::<><>::res://addons/kanban_tasks/view/settings/stages/stages.gd
+::res://addons/kanban_tasks/view/stage/::1689114994
+stage.gd::GDScript::-1::1689114994::0::1::::<>MarginContainer<>::
+stage.tscn::PackedScene::3044052271250671355::1689114994::0::1::::<><>::res://addons/kanban_tasks/view/stage/stage.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd
+::res://addons/kanban_tasks/view/start/::1689114994
+start.gd::GDScript::-1::1689114994::0::1::::<>Control<>::
+start.tscn::PackedScene::2692091061628401710::1689114994::0::1::::<><>::res://addons/kanban_tasks/view/start/start.gd
+::res://addons/kanban_tasks/view/task/::1689114994
+autosize_label.gd::GDScript::-1::1689114994::0::1::::<>Label<>::
+task.gd::GDScript::-1::1689114994::0::1::::<>MarginContainer<>::
+task.tscn::PackedScene::5508831843714498441::1689114994::0::1::::<><>::res://addons/kanban_tasks/view/task/task.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd<>res://addons/kanban_tasks/view/task/autosize_label.gd<>uid://bwi22eyrmeeet
+::res://addons/sprite_painter/::1689115863
+editor_icon_button.gd::GDScript::-1::1689115863::0::1::::<>Button<>::
+LICENSE.md::TextFile::-1::1689115863::0::1::::<><>::
+plugin.cfg::TextFile::-1::1689115863::0::1::::<><>::
+plugin.gd::GDScript::-1::1689115863::0::1::::<>EditorPlugin<>::
+::res://addons/sprite_painter/graphics/::1689115864
+circle_shape_2d.svg::CompressedTexture2D::5874289519967813379::1689115863::1689115864::1::::<><>::
+curve_texture.tres::ImageTexture::1237211051461700689::1689115863::0::1::::<><>::
+diags.png::CompressedTexture2D::7047200287442323105::1689115863::1689115864::1::::<><>::
+diamond_shape_2d.svg::CompressedTexture2D::8371910265158938770::1689115863::1689115864::1::::<><>::
+distraction_free.tres::ImageTexture::4537135680252852678::1689115863::0::1::::<><>::
+hex_shape_2d.svg::CompressedTexture2D::2094127764397040294::1689115863::1689115864::1::::<><>::
+h_size.tres::ImageTexture::7754405731488230866::1689115863::0::1::::<><>::
+mesh_texture.tres::ImageTexture::8099124123946584488::1689115863::0::1::::<><>::
+rect_shape_2d.svg::CompressedTexture2D::5153525436417389154::1689115863::1689115864::1::::<><>::
+rotate_left.tres::ImageTexture::664068180700374932::1689115863::0::1::::<><>::
+rotate_right.tres::ImageTexture::497204774149315069::1689115863::0::1::::<><>::
+tool_scale.tres::ImageTexture::1223965031972343925::1689115863::0::1::::<><>::
+triangle_shape_2d.svg::CompressedTexture2D::1726637935944033817::1689115863::1689115864::1::::<><>::
+::res://addons/sprite_painter/image_scripts/::1689115863
+Adjust HSV.gd::GDScript::-1::1689115863::0::1::::<>ImageScript<>::
+Channel Curves.gd::GDScript::-1::1689115863::0::1::::<>ImageScript<>::
+Constrain to Palette.gd::GDScript::-1::1689115863::0::1::::<>ImageScript<>::
+Outline.gd::GDScript::-1::1689115863::0::1::::<>ImageScript<>::
+Silhouette Normal Map (WIP).gd::GDScript::-1::1689115863::0::1::::<>ImageScript<>::
+::res://addons/sprite_painter/shaders/::1689115863
+gradient.tres::Shader::3477764634151596186::1689115863::0::1::::<><>::
+line.tres::Shader::7150028489422852809::1689115863::0::1::::<><>::
+shape.tres::Shader::5575989286063047918::1689115863::0::1::::<><>::
+::res://addons/sprite_painter/src/::1689115864
+editing_tool.gd::GDScript::-1::1689115863::0::1::::EditingTool<>VBoxContainer<>::
+fill_tools.gd::GDScript::-1::1689115863::0::1::::ImageFillTools<>RefCounted<>::
+image_script.gd::GDScript::-1::1689115863::0::1::::ImageScript<>RefCounted<>::
+image_transform_menu.gd::GDScript::-1::1689115863::0::1::::<>MenuButton<>::
+main.gd::GDScript::-1::1689115864::0::1::::SpritePainterRoot<>Control<>::
+main.tscn::PackedScene::2579752004129470526::1689115864::0::1::::<><>::res://addons/sprite_painter/src/main.gd<>res://addons/sprite_painter/editor_icon_button.gd<>uid://c7nymhfcdr3hl
+workspace.gd::GDScript::-1::1689115864::0::1::::<>Control<>::
+::res://addons/sprite_painter/src/editing_tools/::1689115863
+tool_brush.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
+tool_brush_clone.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
+tool_brush_normalmap.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
+tool_brush_shading.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
+tool_bucket.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
+tool_gradient.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
+tool_line.gd::GDScript::-1::1689115863::0::1::::<><>::
+tool_pencil.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
+tool_scripting.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
+tool_select.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
+tool_shape.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
+tool_wand.gd::GDScript::-1::1689115863::0::1::::<><>::
+::res://addons/sprite_painter/src/floating/::1689115863
+color_picker.gd::GDScript::-1::1689115863::0::1::::<>MarginContainer<>::
+color_picker.tscn::PackedScene::2724502461478055015::1689115863::0::1::::<><>::res://addons/sprite_painter/src/floating/color_picker.gd<>res://addons/sprite_painter/editor_icon_button.gd
+tool_switcher.gd::GDScript::-1::1689115863::0::1::::<>Control<>::
+type_context_settings.gd::GDScript::-1::1689115863::0::1::::<>MarginContainer<>::
+type_context_settings.tscn::PackedScene::7305668823638829552::1689115863::0::1::::<><>::res://addons/sprite_painter/src/floating/type_context_settings.gd<>res://addons/sprite_painter/editor_icon_button.gd<>res://addons/sprite_painter/src/floating/type_context/context_spriteframes.gd<>res://addons/sprite_painter/src/floating/type_context/context_tileset.gd
+::res://addons/sprite_painter/src/floating/type_context/::1689115863
+context_spriteframes.gd::GDScript::-1::1689115863::0::1::::<>Node<>::
+context_tileset.gd::GDScript::-1::1689115863::0::1::::<>Node<>::
+::res://addons/sprite_painter/src/image_view/::1689115864
+image_grid_view.gd::GDScript::-1::1689115864::0::1::::<>Node2D<>::
+image_selection_view.gd::GDScript::-1::1689115864::0::1::::<>Node2D<>::
+image_tool_preview.gd::GDScript::-1::1689115864::0::1::::<>Sprite2D<>::
+image_view.gd::GDScript::-1::1689115864::0::1::::<>Sprite2D<>::
+resize_rect.gd::GDScript::-1::1689115864::0::1::::<>Control<>::
+resize_rect.tscn::PackedScene::-1::1689115864::0::1::::<><>::res://addons/sprite_painter/src/image_view/resize_rect.gd<>uid://c7nymhfcdr3hl
+::res://AssetPack-V1/::1689114994
+::res://AssetPack-V1/Aseprite Files/::1689114994
+::res://AssetPack-V1/Aseprite Files/Player/::1689114993
+::res://AssetPack-V1/Aseprite Files/Tilemap/::1689114994
+::res://AssetPack-V1/Sprite Sheets/::1689114994
+Character Idle 48x48.png::CompressedTexture2D::6122001386301583929::1689114994::1689114994::1::::<><>::
+player jump 48x48.png::CompressedTexture2D::1764737007030120294::1689114994::1689114994::1::::<><>::
+player land 48x48.png::CompressedTexture2D::905459669542503180::1689114994::1689114994::1::::<><>::
+run cycle 48x48.png::CompressedTexture2D::8446093976153178750::1689114994::1689114994::1::::<><>::
+wall land 48x48.png::CompressedTexture2D::913074177056563619::1689114994::1689114994::1::::<><>::
+Wall Slide 48x48.png::CompressedTexture2D::4545122672840141522::1689114994::1689114994::1::::<><>::
+::res://AssetPack-V1/Tilemap/::1689114994
+160x160 background tilemap.png::CompressedTexture2D::3209381211385225171::1689114994::1689114994::1::::<><>::
+Basic Tilemap.png::CompressedTexture2D::9015878618047060847::1689114994::1689114994::1::::<><>::
+::res://Scenes/::1689115103
+animal.tscn::PackedScene::9187693385894089207::1689115103::0::1::::<><>::uid://8n22xcbtt5sd::::res://icon.svg<>res://Scripts/animal.gd
+AnimalSim.tscn::PackedScene::6954587257482636905::1689115103::0::1::::<><>::uid://d35t75xsi1jad::::res://Scenes/animal.tscn
+platformer.tscn::PackedScene::3091744422733242709::1689115103::0::1::::<><>::uid://c8x5vcr06es4i::::res://Sidescroller Shooter - Central City/Background/Base Color.png<>uid://bj1juq1t1sfqt::::res://Scenes/player.tscn<>uid://dl2yvw2gnpx8k::::res://Scenes/wall.tscn
+player.tscn::PackedScene::3072377148291191511::1689115103::0::1::::<><>::res://Scripts/player.gd<>uid://cthsp6p4q1xmv::::res://AssetPack-V1/Sprite Sheets/Character Idle 48x48.png<>uid://0e37wsl5pbx3::::res://AssetPack-V1/Sprite Sheets/player jump 48x48.png<>uid://m5u12p7iifds::::res://AssetPack-V1/Sprite Sheets/player land 48x48.png<>uid://dsll60p8f7u1k::::res://AssetPack-V1/Sprite Sheets/run cycle 48x48.png
+wall.tscn::PackedScene::7988573437469695888::1689115103::0::1::::<><>::uid://8n22xcbtt5sd::::res://icon.svg
+::res://Scripts/::1689114994
+animal.gd::GDScript::-1::1689114994::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1689114994::0::1::::<>CharacterBody2D<>::
+::res://Sidescroller Shooter - Central City/::1689114994
+::res://Sidescroller Shooter - Central City/Assets/::1689114994
+Buildings.png::CompressedTexture2D::4048655316089027098::1689114994::1689114994::1::::<><>::
+Props-01.png::CompressedTexture2D::9032664872002604860::1689114994::1689114994::1::::<><>::
+Tiles.png::CompressedTexture2D::4742301659506975507::1689114994::1689114994::1::::<><>::
+::res://Sidescroller Shooter - Central City/Background/::1689114994
+Background Props.png::CompressedTexture2D::327008633248793457::1689114994::1689114994::1::::<><>::
+Base Color.png::CompressedTexture2D::7138413039725508762::1689114994::1689114994::1::::<><>::
+Frontal Fog.png::CompressedTexture2D::6263543549653646481::1689114994::1689114994::1::::<><>::
+Mid Fog.png::CompressedTexture2D::3794772591571851337::1689114994::1689114994::1::::<><>::
+::res://Sidescroller Shooter - Central City/Social/::1689114994
+Background Props.png::CompressedTexture2D::490254262421956414::1689114994::1689114994::1::::<><>::
+Buildings.png::CompressedTexture2D::7524196626343710739::1689114994::1689114994::1::::<><>::
+MockUp-01.png::CompressedTexture2D::6359304144178058760::1689114994::1689114994::1::::<><>::
+Props-01.png::CompressedTexture2D::2207953985524456432::1689114994::1689114994::1::::<><>::
+Tiles.png::CompressedTexture2D::3112660768736447317::1689114994::1689114994::1::::<><>::
+::res://test/::1689116111
+diags2.png::CompressedTexture2D::5073502940176382466::1689116111::1689116111::1::::<><>::
+icon.svg::CompressedTexture2D::3044377495168998275::1689115864::1689115864::1::::<><>::
+node_2d.tscn::PackedScene::8336750182765398954::1689115864::0::1::::<><>::uid://c7nymhfcdr3hl
