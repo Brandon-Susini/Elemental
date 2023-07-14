@@ -23,7 +23,7 @@ window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/sprite_painter/plugin.cfg")
+enabled=PackedStringArray("res://addons/script_panel_plus/plugin.cfg")
 
 [input]
 

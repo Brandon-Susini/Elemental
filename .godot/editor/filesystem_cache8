@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1689115914
+::res://::1689359032
 icon.png::CompressedTexture2D::4661350061556102347::1689115864::1689115864::1::::<><>::
 icon.svg::CompressedTexture2D::2344757537296242503::1689114994::1689115030::1::::<><>::
 LICENSE.md::TextFile::-1::1689115863::0::1::::<><>::
 README.md::TextFile::-1::1689115863::0::1::::<><>::
-::res://addons/::1689115863
+::res://addons/::1689347716
 ::res://addons/kanban_tasks/::1689115030
 icon.svg::CompressedTexture2D::2584192313033160869::1689114994::1689115030::1::::<><>::
 plugin.cfg::TextFile::-1::1689114994::0::1::::<><>::
@@ -72,72 +72,19 @@ start.tscn::PackedScene::2692091061628401710::1689114994::0::1::::<><>::res://ad
 autosize_label.gd::GDScript::-1::1689114994::0::1::::<>Label<>::
 task.gd::GDScript::-1::1689114994::0::1::::<>MarginContainer<>::
 task.tscn::PackedScene::5508831843714498441::1689114994::0::1::::<><>::res://addons/kanban_tasks/view/task/task.gd<>res://addons/kanban_tasks/edit_label/edit_label.gd<>res://addons/kanban_tasks/view/task/autosize_label.gd<>uid://bwi22eyrmeeet
-::res://addons/sprite_painter/::1689115863
-editor_icon_button.gd::GDScript::-1::1689115863::0::1::::<>Button<>::
-LICENSE.md::TextFile::-1::1689115863::0::1::::<><>::
-plugin.cfg::TextFile::-1::1689115863::0::1::::<><>::
-plugin.gd::GDScript::-1::1689115863::0::1::::<>EditorPlugin<>::
-::res://addons/sprite_painter/graphics/::1689115864
-circle_shape_2d.svg::CompressedTexture2D::5874289519967813379::1689115863::1689115864::1::::<><>::
-curve_texture.tres::ImageTexture::1237211051461700689::1689115863::0::1::::<><>::
-diags.png::CompressedTexture2D::7047200287442323105::1689115863::1689115864::1::::<><>::
-diamond_shape_2d.svg::CompressedTexture2D::8371910265158938770::1689115863::1689115864::1::::<><>::
-distraction_free.tres::ImageTexture::4537135680252852678::1689115863::0::1::::<><>::
-hex_shape_2d.svg::CompressedTexture2D::2094127764397040294::1689115863::1689115864::1::::<><>::
-h_size.tres::ImageTexture::7754405731488230866::1689115863::0::1::::<><>::
-mesh_texture.tres::ImageTexture::8099124123946584488::1689115863::0::1::::<><>::
-rect_shape_2d.svg::CompressedTexture2D::5153525436417389154::1689115863::1689115864::1::::<><>::
-rotate_left.tres::ImageTexture::664068180700374932::1689115863::0::1::::<><>::
-rotate_right.tres::ImageTexture::497204774149315069::1689115863::0::1::::<><>::
-tool_scale.tres::ImageTexture::1223965031972343925::1689115863::0::1::::<><>::
-triangle_shape_2d.svg::CompressedTexture2D::1726637935944033817::1689115863::1689115864::1::::<><>::
-::res://addons/sprite_painter/image_scripts/::1689115863
-Adjust HSV.gd::GDScript::-1::1689115863::0::1::::<>ImageScript<>::
-Channel Curves.gd::GDScript::-1::1689115863::0::1::::<>ImageScript<>::
-Constrain to Palette.gd::GDScript::-1::1689115863::0::1::::<>ImageScript<>::
-Outline.gd::GDScript::-1::1689115863::0::1::::<>ImageScript<>::
-Silhouette Normal Map (WIP).gd::GDScript::-1::1689115863::0::1::::<>ImageScript<>::
-::res://addons/sprite_painter/shaders/::1689115863
-gradient.tres::Shader::3477764634151596186::1689115863::0::1::::<><>::
-line.tres::Shader::7150028489422852809::1689115863::0::1::::<><>::
-shape.tres::Shader::5575989286063047918::1689115863::0::1::::<><>::
-::res://addons/sprite_painter/src/::1689115864
-editing_tool.gd::GDScript::-1::1689115863::0::1::::EditingTool<>VBoxContainer<>::
-fill_tools.gd::GDScript::-1::1689115863::0::1::::ImageFillTools<>RefCounted<>::
-image_script.gd::GDScript::-1::1689115863::0::1::::ImageScript<>RefCounted<>::
-image_transform_menu.gd::GDScript::-1::1689115863::0::1::::<>MenuButton<>::
-main.gd::GDScript::-1::1689115864::0::1::::SpritePainterRoot<>Control<>::
-main.tscn::PackedScene::2579752004129470526::1689115864::0::1::::<><>::res://addons/sprite_painter/src/main.gd<>res://addons/sprite_painter/editor_icon_button.gd<>uid://c7nymhfcdr3hl
-workspace.gd::GDScript::-1::1689115864::0::1::::<>Control<>::
-::res://addons/sprite_painter/src/editing_tools/::1689115863
-tool_brush.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
-tool_brush_clone.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
-tool_brush_normalmap.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
-tool_brush_shading.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
-tool_bucket.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
-tool_gradient.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
-tool_line.gd::GDScript::-1::1689115863::0::1::::<><>::
-tool_pencil.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
-tool_scripting.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
-tool_select.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
-tool_shape.gd::GDScript::-1::1689115863::0::1::::<>EditingTool<>::
-tool_wand.gd::GDScript::-1::1689115863::0::1::::<><>::
-::res://addons/sprite_painter/src/floating/::1689115863
-color_picker.gd::GDScript::-1::1689115863::0::1::::<>MarginContainer<>::
-color_picker.tscn::PackedScene::2724502461478055015::1689115863::0::1::::<><>::res://addons/sprite_painter/src/floating/color_picker.gd<>res://addons/sprite_painter/editor_icon_button.gd
-tool_switcher.gd::GDScript::-1::1689115863::0::1::::<>Control<>::
-type_context_settings.gd::GDScript::-1::1689115863::0::1::::<>MarginContainer<>::
-type_context_settings.tscn::PackedScene::7305668823638829552::1689115863::0::1::::<><>::res://addons/sprite_painter/src/floating/type_context_settings.gd<>res://addons/sprite_painter/editor_icon_button.gd<>res://addons/sprite_painter/src/floating/type_context/context_spriteframes.gd<>res://addons/sprite_painter/src/floating/type_context/context_tileset.gd
-::res://addons/sprite_painter/src/floating/type_context/::1689115863
-context_spriteframes.gd::GDScript::-1::1689115863::0::1::::<>Node<>::
-context_tileset.gd::GDScript::-1::1689115863::0::1::::<>Node<>::
-::res://addons/sprite_painter/src/image_view/::1689115864
-image_grid_view.gd::GDScript::-1::1689115864::0::1::::<>Node2D<>::
-image_selection_view.gd::GDScript::-1::1689115864::0::1::::<>Node2D<>::
-image_tool_preview.gd::GDScript::-1::1689115864::0::1::::<>Sprite2D<>::
-image_view.gd::GDScript::-1::1689115864::0::1::::<>Sprite2D<>::
-resize_rect.gd::GDScript::-1::1689115864::0::1::::<>Control<>::
-resize_rect.tscn::PackedScene::-1::1689115864::0::1::::<><>::res://addons/sprite_painter/src/image_view/resize_rect.gd<>uid://c7nymhfcdr3hl
+::res://addons/script_panel_plus/::1689347716
+plugin.cfg::TextFile::-1::1689347716::0::1::::<><>::
+plugin.gd::GDScript::-1::1689347716::0::1::::<>EditorPlugin<>::
+README.md::TextFile::-1::1689347716::0::1::::<><>::
+::res://addons/script_panel_plus/configs/::1689347716
+config.cfg::TextFile::-1::1689347716::0::1::::<><>::
+defaults.cfg::TextFile::-1::1689347716::0::1::::<><>::
+::res://addons/script_panel_plus/saves/::1689347716
+saves_are_stored_here.txt::TextFile::-1::1689347716::0::1::::<><>::
+::res://addons/script_panel_plus/script_panel/::1689347716
+script_list.gd::GDScript::-1::1689347716::0::1::::<>ItemList<>::
+script_panel.gd::GDScript::-1::1689347716::0::1::::<>HBoxContainer<>::
+script_panel.tscn::PackedScene::800954975379714777::1689347716::0::1::::<><>::res://addons/script_panel_plus/script_panel/script_panel.gd<>res://addons/script_panel_plus/script_panel/script_list.gd
 ::res://AssetPack-V1/::1689114994
 ::res://AssetPack-V1/Aseprite Files/::1689114994
 ::res://AssetPack-V1/Aseprite Files/Player/::1689114993
@@ -152,15 +99,26 @@ Wall Slide 48x48.png::CompressedTexture2D::4545122672840141522::1689114994::1689
 ::res://AssetPack-V1/Tilemap/::1689114994
 160x160 background tilemap.png::CompressedTexture2D::3209381211385225171::1689114994::1689114994::1::::<><>::
 Basic Tilemap.png::CompressedTexture2D::9015878618047060847::1689114994::1689114994::1::::<><>::
-::res://Scenes/::1689115103
-animal.tscn::PackedScene::9187693385894089207::1689115103::0::1::::<><>::uid://8n22xcbtt5sd::::res://icon.svg<>res://Scripts/animal.gd
-AnimalSim.tscn::PackedScene::6954587257482636905::1689115103::0::1::::<><>::uid://d35t75xsi1jad::::res://Scenes/animal.tscn
-platformer.tscn::PackedScene::3091744422733242709::1689115103::0::1::::<><>::uid://c8x5vcr06es4i::::res://Sidescroller Shooter - Central City/Background/Base Color.png<>uid://bj1juq1t1sfqt::::res://Scenes/player.tscn<>uid://dl2yvw2gnpx8k::::res://Scenes/wall.tscn
-player.tscn::PackedScene::3072377148291191511::1689115103::0::1::::<><>::res://Scripts/player.gd<>uid://cthsp6p4q1xmv::::res://AssetPack-V1/Sprite Sheets/Character Idle 48x48.png<>uid://0e37wsl5pbx3::::res://AssetPack-V1/Sprite Sheets/player jump 48x48.png<>uid://m5u12p7iifds::::res://AssetPack-V1/Sprite Sheets/player land 48x48.png<>uid://dsll60p8f7u1k::::res://AssetPack-V1/Sprite Sheets/run cycle 48x48.png
-wall.tscn::PackedScene::7988573437469695888::1689115103::0::1::::<><>::uid://8n22xcbtt5sd::::res://icon.svg
-::res://Scripts/::1689114994
+::res://Scenes/::1689359032
+animal.tscn::PackedScene::9187693385894089207::1689358855::0::1::::<><>::uid://8n22xcbtt5sd::::res://icon.svg<>res://Scripts/animal.gd
+AnimalSim.tscn::PackedScene::6954587257482636905::1689358855::0::1::::<><>::uid://d35t75xsi1jad::::res://Scenes/animal.tscn
+platformer.tscn::PackedScene::3091744422733242709::1689358855::0::1::::<><>::uid://c8x5vcr06es4i::::res://Sidescroller Shooter - Central City/Background/Base Color.png<>uid://bj1juq1t1sfqt::::res://Scenes/player.tscn<>uid://dl2yvw2gnpx8k::::res://Scenes/wall.tscn
+player.tscn::PackedScene::3072377148291191511::1689359048::0::1::::<><>::res://Scripts/player.gd<>uid://cthsp6p4q1xmv::::res://AssetPack-V1/Sprite Sheets/Character Idle 48x48.png<>uid://0e37wsl5pbx3::::res://AssetPack-V1/Sprite Sheets/player jump 48x48.png<>uid://m5u12p7iifds::::res://AssetPack-V1/Sprite Sheets/player land 48x48.png<>uid://dsll60p8f7u1k::::res://AssetPack-V1/Sprite Sheets/run cycle 48x48.png<>res://Scripts/States/General/StateMachine.gd<>uid://b50xrhmnysqc5::::res://AssetPack-V1/Sprite Sheets/Wall Slide 48x48.png<>res://Scripts/States/Player/PlayerIdle.gd<>res://Scripts/States/Player/PlayerRun.gd<>res://Scripts/States/Player/PlayerJump.gd<>res://Scripts/States/Player/PlayerLand.gd<>res://Scripts/States/Player/PlayerWallSlide.gd<>res://Scripts/States/Player/PlayerControlled.gd
+wall.tscn::PackedScene::7988573437469695888::1689358855::0::1::::<><>::uid://8n22xcbtt5sd::::res://icon.svg
+::res://Scripts/::1689359013
 animal.gd::GDScript::-1::1689114994::0::1::::<>Area2D<>::
-player.gd::GDScript::-1::1689114994::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1689359013::0::1::::<>CharacterBody2D<>::
+::res://Scripts/States/::1689345016
+::res://Scripts/States/General/::1689352962
+State.gd::GDScript::-1::1689346776::0::1::::State<>Node<>::
+StateMachine.gd::GDScript::-1::1689352962::0::1::::<>Node<>::
+::res://Scripts/States/Player/::1689359032
+PlayerControlled.gd::GDScript::-1::1689358854::0::1::::PlayerKnockback<>State<>::
+PlayerIdle.gd::GDScript::-1::1689352004::0::1::::PlayerIdle<>State<>::
+PlayerJump.gd::GDScript::-1::1689352962::0::1::::PlayerJump<>State<>::
+PlayerLand.gd::GDScript::-1::1689349637::0::1::::PlayerLand<>State<>::
+PlayerRun.gd::GDScript::-1::1689349920::0::1::::PlayerRun<>State<>::
+PlayerWallSlide.gd::GDScript::-1::1689358644::0::1::::PlayerWallSlide<>State<>::
 ::res://Sidescroller Shooter - Central City/::1689114994
 ::res://Sidescroller Shooter - Central City/Assets/::1689114994
 Buildings.png::CompressedTexture2D::4048655316089027098::1689114994::1689114994::1::::<><>::
@@ -177,7 +135,3 @@ Buildings.png::CompressedTexture2D::7524196626343710739::1689114994::1689114994:
 MockUp-01.png::CompressedTexture2D::6359304144178058760::1689114994::1689114994::1::::<><>::
 Props-01.png::CompressedTexture2D::2207953985524456432::1689114994::1689114994::1::::<><>::
 Tiles.png::CompressedTexture2D::3112660768736447317::1689114994::1689114994::1::::<><>::
-::res://test/::1689116111
-diags2.png::CompressedTexture2D::5073502940176382466::1689116111::1689116111::1::::<><>::
-icon.svg::CompressedTexture2D::3044377495168998275::1689115864::1689115864::1::::<><>::
-node_2d.tscn::PackedScene::8336750182765398954::1689115864::0::1::::<><>::uid://c7nymhfcdr3hl
